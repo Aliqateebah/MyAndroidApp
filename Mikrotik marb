@@ -1,0 +1,44 @@
+
+‎// ملف: MainActivity.java
+
+package com.example.maribmicrotech;
+
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+‎        // تنفيذ الميزات الخاصة ببرنامج ميكروتك وين بوكس هنا
+    }
+}
+```
+
+```xml
+‎// ملف: activity_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+‎    <!-- تصميم واجهة التطبيق هنا -->
+
+</RelativeLayout>
+```
+
+```java
+‎// ملف: DeveloperInfo.java
+
+package com.example.maribmicrotech;
+
+public class DeveloperInfo {
+    public static final String DEVELOPER_NAME = "علي قتيبة";
+    public static final String DEVELOPER_PHONE_NUMBER = "781208883";
+}
